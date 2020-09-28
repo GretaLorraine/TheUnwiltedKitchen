@@ -1,0 +1,11 @@
+
+.who-dis {
+    background-image: url("/images/greens.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.card{
+    height: 100%;
+}
