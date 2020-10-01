@@ -41,7 +41,7 @@ class AboutTUK extends Component {
                             <li>What is the best way to prep produce so it stays fresh as long as possible?</li>
                             <li>How long will each item keep if prepared this way?</li>
                             <li>What are the best practices for freezer prep?</li>
-                            
+                    
                         </p>
                         <li>Recipe suggestions for items about to go bad.</li>
                     </div>
