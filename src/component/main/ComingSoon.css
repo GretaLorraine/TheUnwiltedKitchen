@@ -1,0 +1,23 @@
+
+.green-onions {
+    background-image: url("/images/greenOnionsBoard.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hey-o {
+    padding-top: 50px;
+}
+
+#coming-soon-card {
+    background-color: lightgoldenrodyellow;
+}
+
+.do-this {
+    color: black;
+    font-size: 60px;
+}
+ li {
+     font-size: 20px;
+ }

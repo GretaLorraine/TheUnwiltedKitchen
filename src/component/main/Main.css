@@ -1,0 +1,14 @@
+.this-one {
+    background-image: url("/images/lettuce.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h3 {
+    color: white;
+}
+
+#yo-son {
+    height: min-content;   
+}
