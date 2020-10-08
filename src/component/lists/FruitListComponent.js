@@ -60,6 +60,7 @@ class FruitListComponent extends Component {
 
                 <div className="sidenav">
                     <Link to="/pantry">Home</Link>
+                    <Link to="/about">About</Link>
                     <Link to="/fruits">Fruits</Link>
                     <Link to="/veggies">Veggies</Link>
                     <Link to="/coming-soon">Coming Soon</Link>  

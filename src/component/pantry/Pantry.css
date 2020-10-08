@@ -89,7 +89,7 @@ body {
   background-image: url("/images/lettuce.jpg");
   background-repeat: no-repeat, repeat;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 /* body {
@@ -121,3 +121,6 @@ main {
   width: 100%;
 }
 
+.card-deck {
+  scroll-behavior: auto ;
+}

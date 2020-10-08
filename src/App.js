@@ -12,6 +12,7 @@ import UpdateUser from './component/updates/UpdateUser';
 import ComingSoon from './component/main/ComingSoon';
 
 import Axios from 'axios'
+import AboutTUK from './component/main/AboutTUK';
 
 class App extends Component {
 
@@ -64,9 +65,10 @@ class App extends Component {
               <Switch>
                   <Route path = "/" exact component = {LandingPage}></Route>
                   <Route path = "/sign-in" component = {() => <Main submitLogin={(user) => this.submitLogin(user)} />}></Route>
-                  <Route path = "/coming-soon" component = {ComingSoon}></Route>
                   <Route path = "/sign-up" component = {SignUp}></Route>
                   <Route path = "/pantry" component = {() => <Pantry updatepantry={this.updatepantry} {...this.state} {...this.props} />}></Route>
+                  <Route path = "/about" component = {AboutTUK}></Route>
+                  <Route path = "/coming-soon" component = {ComingSoon}></Route>
 
                   <Route path = "/users" component = {UserListComponent}></Route>
                   <Route path = "/update-users/:id" component = {UpdateUser}></Route>

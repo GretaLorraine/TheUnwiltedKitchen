@@ -10,6 +10,7 @@ class ComingSoon extends Component {
             <div>
                 <div className="sidenav">
                     <Link to="/pantry">Home</Link>
+                    <Link to="/about">About</Link>
                     <Link to="/fruits">Fruits</Link>
                     <Link to="/veggies">Veggies</Link>
                     <Link to="/coming-soon">Coming Soon</Link>
@@ -18,7 +19,7 @@ class ComingSoon extends Component {
                 
                 <div className="hey-o">
                 <div className="card col-md-5 offset-md-4 offset-md-3" id="coming-soon-card">
-                    <h2 className="do-this">Coming Soon!</h2>
+                    <h2 className="do-this" style={{textAlign: "center"}}>Coming Soon!</h2>
                     <ul className="offset-sm-1">
                         <li>Progress trackers to help you know freshness at a glance.</li>
                         <li>Text notifications for freshness updates.</li>

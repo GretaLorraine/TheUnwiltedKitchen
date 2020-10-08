@@ -8,16 +8,20 @@
 
 .hey-o {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #coming-soon-card {
     background-color: lightgoldenrodyellow;
+    padding-right: 30px;
+
 }
 
 .do-this {
     color: black;
     font-size: 60px;
 }
+
  li {
      font-size: 20px;
  }

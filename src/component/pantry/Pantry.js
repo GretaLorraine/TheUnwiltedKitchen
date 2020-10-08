@@ -58,13 +58,14 @@ class Pantry extends Component {
 
                     <div className="sidenav">
                         <Link to="/pantry">Home</Link>
+                        <Link to="/about">About</Link>
                         <Link to="/fruits">Fruits</Link>
                         <Link to="/veggies">Veggies</Link>
                         <Link to="/coming-soon">Coming Soon</Link>
                         <button style={{marginLeft: "35px", marginTop: "50px"}} type="button" class="btn btn-outline-light" SignOut={(user) => this.updatepantry(user)}>Log Out</button>
                     </div>
 
-                    <div className="container col-md-9 offset-md-2 offset-md-1">
+                    <div className="container col-md-9 offset-md-2 offset-md-1" id="pantry-cards">
                         <div className="card-deck">
                             <div className="card">
                                 <img className="fruit-pic" src="/images/closeUpBlueberries.jpg" alt="Close up of blueberries" />

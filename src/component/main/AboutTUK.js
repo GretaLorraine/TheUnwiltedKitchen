@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import FruitListComponent from './../lists/FruitListComponent';
 
 class AboutTUK extends Component {
@@ -10,6 +11,7 @@ class AboutTUK extends Component {
             <div>
                 <div className="sidenav">
                     <Link to="/pantry">Home</Link>
+                    <Link to="/about">About</Link>
                     <Link to="/fruits">Fruits</Link>
                     <Link to="/veggies">Veggies</Link>
                     <Link to="/coming-soon">Coming Soon</Link>
@@ -17,9 +19,9 @@ class AboutTUK extends Component {
                 </div>
                 
                 <div className="hey-o">
-                <div className="card col-md-5 offset-md-4 offset-md-3" id="coming-soon-card">
-                    <h2 className="do-this">Hello! And welcome to The Unwilted Kitchen!</h2>
-                    <div className="offset-sm-1">
+                <div className="card col-md-5 offset-md-4 offset-md-3" id="coming-soon-card" style={{paddingTop: "30px", paddingBottom: "30px"}}>
+                    <h2 className="do-this" style={{textAlign: "center"}} >Hello! And welcome to The Unwilted Kitchen!</h2>
+                    <div className="offset-sm-1" style={{paddingTop: "30px"}}>
                         <p>Have you ever bought fresh produce only to find it squishy and limp in what feels like no time? How long ago did you 
                             purchase that broccoli in the crisper? Why are your potatoes going bad so fast? Who wants banana bread? ...again... We 
                             waste so much food and money trying to be healthy and save on groceries that often times we end up forgetting each 
@@ -33,17 +35,16 @@ class AboutTUK extends Component {
                             of prep and are now furiously wrapping cheap plastic wrap around half your groceries until you can stop by the store 
                             in two days when you forget both freezer bags and plastic wrap, which you are now also out of. Just me then?
                         </p>
-                    <h3>Don't worry we're here to help!</h3>
-                        <p>The Unwilted Kitchen was made in response to these very issues. After watching lettuce brown and apples get soft over 
+                    <h2 style={{paddingTop: "10px"}}>Don't worry we're here to help!</h2>
+                        <p style={{paddingTop: "10px"}}>The Unwilted Kitchen was made in response to these very issues. After watching lettuce brown and apples get soft over 
                             and over (every time promising to all gods vegetation or karma or whatever to not do the same to future similar produce), 
                             enough was enough! I would not be the cause of death for another fruit or vegetable! I put my head together with a friend 
                             and came up with a list of things we wish were readily available:
-                            <li>What is the best way to prep produce so it stays fresh as long as possible?</li>
+                            <li>What is the best way to prep fresh produce?</li>
                             <li>How long will each item keep if prepared this way?</li>
                             <li>What are the best practices for freezer prep?</li>
-                    
+                            <li>.</li>
                         </p>
-                        <li>Recipe suggestions for items about to go bad.</li>
                     </div>
                 </div>
                 </div>
